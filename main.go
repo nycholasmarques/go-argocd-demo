@@ -6,11 +6,11 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "<h1>vascooooooooo</h1>")
+	fmt.Fprintf(w, "<h1>golanggggggggg</h1>")
 }
 
 func main() {
 	http.HandleFunc("/", handler)
-	fmt.Println("Server running in http://localhost:8081...")
+	fmt.Println("Server running...")
 	http.ListenAndServe(":8081", nil)
 }
