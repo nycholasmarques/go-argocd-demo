@@ -25,4 +25,4 @@ spec:
             cpu: "500m"
             memory: "128Mi"
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
