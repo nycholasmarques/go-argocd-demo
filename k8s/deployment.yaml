@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: go-argocd-demo
-        image: devnych/go-argocd-demo:latest
+        image: devnych/go-argocd-demo:0.1
         resources:
           requests:
             cpu: "100m"
@@ -25,4 +25,4 @@ spec:
             cpu: "500m"
             memory: "128Mi"
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
